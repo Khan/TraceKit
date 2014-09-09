@@ -650,7 +650,8 @@ TraceKit.computeStackTrace = (function computeStackTraceWrapper() {
                     'func': parts[1] || 'unknown',
                     'line': +parts[9],
                     'column': parts[10] ? +parts[10] : null
-                };
+                  };
+               }
             } else {
                 continue;
             }
